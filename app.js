@@ -1,3 +1,4 @@
+const forecast = require('./utils/forecast')
 // const request = require('request');
 // const url = "https://api.darksky.net/forecast/daaf656451920a2cefaf688289267b97/37.8267,-122.4233?units=si";
 
@@ -17,3 +18,7 @@ add(1,2,(sum)=>{
 })
 
 
+forecast(-75.7088, 44.1545, (error, data) => {
+    console.log('Error', error)
+    console.log('Data', data)
+})
