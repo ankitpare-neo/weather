@@ -5,3 +5,4 @@ const user = {
 
 const {name, company} = user
 console.log(name);
+
